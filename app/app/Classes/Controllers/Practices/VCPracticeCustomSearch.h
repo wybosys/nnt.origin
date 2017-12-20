@@ -1,0 +1,4 @@
+
+@interface VCPracticeCustomSearch : UIUnifiedSearchBarController
+
+@end

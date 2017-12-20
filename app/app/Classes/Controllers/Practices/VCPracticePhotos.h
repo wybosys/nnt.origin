@@ -1,0 +1,4 @@
+
+@interface VCPracticePhotos : UIViewControllerExt
+
+@end

@@ -1,0 +1,4 @@
+
+@interface VCPracticeHealthKit : UIViewControllerExt
+
+@end

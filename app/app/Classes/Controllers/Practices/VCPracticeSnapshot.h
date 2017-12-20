@@ -1,0 +1,4 @@
+
+@interface VCPracticeSnapshot : UIViewControllerExt
+
+@end

@@ -1,0 +1,4 @@
+
+@interface VCPracticeSignalSlot : UIViewControllerExt
+
+@end

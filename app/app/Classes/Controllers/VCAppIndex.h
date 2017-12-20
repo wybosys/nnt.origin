@@ -1,0 +1,4 @@
+
+@interface VCAppIndex : UIViewControllerExt
+
+@end

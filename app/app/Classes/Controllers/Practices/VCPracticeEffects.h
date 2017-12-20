@@ -1,0 +1,4 @@
+
+@interface VCPracticeEffects : UIViewControllerExt
+
+@end

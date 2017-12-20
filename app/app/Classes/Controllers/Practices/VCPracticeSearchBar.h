@@ -1,0 +1,4 @@
+
+@interface VCPracticeSearchBar : UISystemSearchBarController
+
+@end

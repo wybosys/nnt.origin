@@ -1,0 +1,4 @@
+
+@interface VCPracticeTouchID : UIViewControllerExt
+
+@end

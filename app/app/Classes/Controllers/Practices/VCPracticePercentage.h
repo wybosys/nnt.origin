@@ -1,0 +1,4 @@
+
+@interface VCPracticePercentage : UIViewControllerExt
+
+@end

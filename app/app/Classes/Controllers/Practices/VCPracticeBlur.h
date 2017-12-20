@@ -1,0 +1,4 @@
+
+@interface VCPracticeBlur : UIViewControllerExt
+
+@end

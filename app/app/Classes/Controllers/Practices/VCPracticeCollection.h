@@ -1,0 +1,4 @@
+
+@interface VCPracticeCollection : UICollectionViewControllerExt
+
+@end

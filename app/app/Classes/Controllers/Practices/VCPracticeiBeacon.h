@@ -1,0 +1,4 @@
+
+@interface VCPracticeiBeacon : UIViewControllerExt
+
+@end

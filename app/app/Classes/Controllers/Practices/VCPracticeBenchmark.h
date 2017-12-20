@@ -1,0 +1,4 @@
+
+@interface VCPracticeBenchmark : UIViewControllerExt
+
+@end

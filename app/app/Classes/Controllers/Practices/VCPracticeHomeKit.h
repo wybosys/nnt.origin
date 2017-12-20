@@ -1,0 +1,4 @@
+
+@interface VCPracticeHomeKit : UIViewControllerExt
+
+@end

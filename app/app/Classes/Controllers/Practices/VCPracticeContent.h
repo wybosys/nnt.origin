@@ -1,0 +1,4 @@
+
+@interface VCPracticeContent : UIViewControllerExt
+
+@end

@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16C6B01D1AA590B7005A71B4 /* rte.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B01C1AA590B7005A71B4 /* rte.h */; };
+		16C6B01F1AA590B7005A71B4 /* rte.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B01E1AA590B7005A71B4 /* rte.m */; };
+		16C6B0411AA59148005A71B4 /* RTEContentMessageList.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B0361AA59148005A71B4 /* RTEContentMessageList.m */; };
+		16C6B0421AA59148005A71B4 /* RTEHeartBeatReq.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B0381AA59148005A71B4 /* RTEHeartBeatReq.m */; };
+		16C6B0431AA59148005A71B4 /* RTEHeartBeatResp.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B03A1AA59148005A71B4 /* RTEHeartBeatResp.m */; };
+		16C6B0441AA59148005A71B4 /* RTEResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B03C1AA59148005A71B4 /* RTEResponse.m */; };
+		16C6B0451AA59148005A71B4 /* RTExchangeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B03E1AA59148005A71B4 /* RTExchangeObject.m */; };
+		16C6B0461AA59148005A71B4 /* RTObjectExchangeService.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B0401AA59148005A71B4 /* RTObjectExchangeService.m */; };
+		16C6B0531AA591F5005A71B4 /* RTEAuthRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B04A1AA591F5005A71B4 /* RTEAuthRequest.m */; };
+		16C6B0541AA591F5005A71B4 /* RTEMessageDeliveryReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B04C1AA591F5005A71B4 /* RTEMessageDeliveryReport.m */; };
+		16C6B0551AA591F5005A71B4 /* RTESysCMD.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B04E1AA591F5005A71B4 /* RTESysCMD.m */; };
+		16C6B0561AA591F5005A71B4 /* RTESysCMDDisconnect.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B0501AA591F5005A71B4 /* RTESysCMDDisconnect.m */; };
+		16C6B0571AA591F5005A71B4 /* RTESysReport.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6B0521AA591F5005A71B4 /* RTESysReport.m */; };
+		16C6B0581AA5920E005A71B4 /* RTEAuthRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B0491AA591F5005A71B4 /* RTEAuthRequest.h */; };
+		16C6B0591AA5920E005A71B4 /* RTEMessageDeliveryReport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B04B1AA591F5005A71B4 /* RTEMessageDeliveryReport.h */; };
+		16C6B05A1AA5920E005A71B4 /* RTESysCMD.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B04D1AA591F5005A71B4 /* RTESysCMD.h */; };
+		16C6B05B1AA5920E005A71B4 /* RTESysCMDDisconnect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B04F1AA591F5005A71B4 /* RTESysCMDDisconnect.h */; };
+		16C6B05C1AA5920E005A71B4 /* RTESysReport.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B0511AA591F5005A71B4 /* RTESysReport.h */; };
+		16C6B05D1AA5920E005A71B4 /* RTEContentMessageList.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B0351AA59148005A71B4 /* RTEContentMessageList.h */; };
+		16C6B05E1AA5920E005A71B4 /* RTEHeartBeatReq.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B0371AA59148005A71B4 /* RTEHeartBeatReq.h */; };
+		16C6B05F1AA5920E005A71B4 /* RTEHeartBeatResp.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B0391AA59148005A71B4 /* RTEHeartBeatResp.h */; };
+		16C6B0601AA5920E005A71B4 /* RTEResponse.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B03B1AA59148005A71B4 /* RTEResponse.h */; };
+		16C6B0611AA5920E005A71B4 /* RTExchangeObject.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B03D1AA59148005A71B4 /* RTExchangeObject.h */; };
+		16C6B0621AA5920E005A71B4 /* RTObjectExchangeService.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6B03F1AA59148005A71B4 /* RTObjectExchangeService.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		16C6B0171AA590B7005A71B4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = include;
+			dstSubfolderSpec = 16;
+			files = (
+				16C6B0581AA5920E005A71B4 /* RTEAuthRequest.h in CopyFiles */,
+				16C6B0591AA5920E005A71B4 /* RTEMessageDeliveryReport.h in CopyFiles */,
+				16C6B05A1AA5920E005A71B4 /* RTESysCMD.h in CopyFiles */,
+				16C6B05B1AA5920E005A71B4 /* RTESysCMDDisconnect.h in CopyFiles */,
+				16C6B05C1AA5920E005A71B4 /* RTESysReport.h in CopyFiles */,
+				16C6B05D1AA5920E005A71B4 /* RTEContentMessageList.h in CopyFiles */,
+				16C6B05E1AA5920E005A71B4 /* RTEHeartBeatReq.h in CopyFiles */,
+				16C6B05F1AA5920E005A71B4 /* RTEHeartBeatResp.h in CopyFiles */,
+				16C6B0601AA5920E005A71B4 /* RTEResponse.h in CopyFiles */,
+				16C6B0611AA5920E005A71B4 /* RTExchangeObject.h in CopyFiles */,
+				16C6B0621AA5920E005A71B4 /* RTObjectExchangeService.h in CopyFiles */,
+				16C6B01D1AA590B7005A71B4 /* rte.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16C6B0191AA590B7005A71B4 /* librte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = librte.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		16C6B01C1AA590B7005A71B4 /* rte.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = rte.h; sourceTree = "<group>"; };
+		16C6B01E1AA590B7005A71B4 /* rte.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = rte.m; sourceTree = "<group>"; };
+		16C6B0351AA59148005A71B4 /* RTEContentMessageList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEContentMessageList.h; sourceTree = "<group>"; };
+		16C6B0361AA59148005A71B4 /* RTEContentMessageList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEContentMessageList.m; sourceTree = "<group>"; };
+		16C6B0371AA59148005A71B4 /* RTEHeartBeatReq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEHeartBeatReq.h; sourceTree = "<group>"; };
+		16C6B0381AA59148005A71B4 /* RTEHeartBeatReq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEHeartBeatReq.m; sourceTree = "<group>"; };
+		16C6B0391AA59148005A71B4 /* RTEHeartBeatResp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEHeartBeatResp.h; sourceTree = "<group>"; };
+		16C6B03A1AA59148005A71B4 /* RTEHeartBeatResp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEHeartBeatResp.m; sourceTree = "<group>"; };
+		16C6B03B1AA59148005A71B4 /* RTEResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEResponse.h; sourceTree = "<group>"; };
+		16C6B03C1AA59148005A71B4 /* RTEResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEResponse.m; sourceTree = "<group>"; };
+		16C6B03D1AA59148005A71B4 /* RTExchangeObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTExchangeObject.h; sourceTree = "<group>"; };
+		16C6B03E1AA59148005A71B4 /* RTExchangeObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTExchangeObject.m; sourceTree = "<group>"; };
+		16C6B03F1AA59148005A71B4 /* RTObjectExchangeService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTObjectExchangeService.h; sourceTree = "<group>"; };
+		16C6B0401AA59148005A71B4 /* RTObjectExchangeService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTObjectExchangeService.m; sourceTree = "<group>"; };
+		16C6B0491AA591F5005A71B4 /* RTEAuthRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEAuthRequest.h; sourceTree = "<group>"; };
+		16C6B04A1AA591F5005A71B4 /* RTEAuthRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEAuthRequest.m; sourceTree = "<group>"; };
+		16C6B04B1AA591F5005A71B4 /* RTEMessageDeliveryReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTEMessageDeliveryReport.h; sourceTree = "<group>"; };
+		16C6B04C1AA591F5005A71B4 /* RTEMessageDeliveryReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTEMessageDeliveryReport.m; sourceTree = "<group>"; };
+		16C6B04D1AA591F5005A71B4 /* RTESysCMD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTESysCMD.h; sourceTree = "<group>"; };
+		16C6B04E1AA591F5005A71B4 /* RTESysCMD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTESysCMD.m; sourceTree = "<group>"; };
+		16C6B04F1AA591F5005A71B4 /* RTESysCMDDisconnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTESysCMDDisconnect.h; sourceTree = "<group>"; };
+		16C6B0501AA591F5005A71B4 /* RTESysCMDDisconnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTESysCMDDisconnect.m; sourceTree = "<group>"; };
+		16C6B0511AA591F5005A71B4 /* RTESysReport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RTESysReport.h; sourceTree = "<group>"; };
+		16C6B0521AA591F5005A71B4 /* RTESysReport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RTESysReport.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16C6B0161AA590B7005A71B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16C6B0101AA590B7005A71B4 = {
+			isa = PBXGroup;
+			children = (
+				16C6B01B1AA590B7005A71B4 /* rte */,
+				16C6B01A1AA590B7005A71B4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16C6B01A1AA590B7005A71B4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16C6B0191AA590B7005A71B4 /* librte.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16C6B01B1AA590B7005A71B4 /* rte */ = {
+			isa = PBXGroup;
+			children = (
+				16C6B0491AA591F5005A71B4 /* RTEAuthRequest.h */,
+				16C6B04A1AA591F5005A71B4 /* RTEAuthRequest.m */,
+				16C6B04B1AA591F5005A71B4 /* RTEMessageDeliveryReport.h */,
+				16C6B04C1AA591F5005A71B4 /* RTEMessageDeliveryReport.m */,
+				16C6B04D1AA591F5005A71B4 /* RTESysCMD.h */,
+				16C6B04E1AA591F5005A71B4 /* RTESysCMD.m */,
+				16C6B04F1AA591F5005A71B4 /* RTESysCMDDisconnect.h */,
+				16C6B0501AA591F5005A71B4 /* RTESysCMDDisconnect.m */,
+				16C6B0511AA591F5005A71B4 /* RTESysReport.h */,
+				16C6B0521AA591F5005A71B4 /* RTESysReport.m */,
+				16C6B0351AA59148005A71B4 /* RTEContentMessageList.h */,
+				16C6B0361AA59148005A71B4 /* RTEContentMessageList.m */,
+				16C6B0371AA59148005A71B4 /* RTEHeartBeatReq.h */,
+				16C6B0381AA59148005A71B4 /* RTEHeartBeatReq.m */,
+				16C6B0391AA59148005A71B4 /* RTEHeartBeatResp.h */,
+				16C6B03A1AA59148005A71B4 /* RTEHeartBeatResp.m */,
+				16C6B03B1AA59148005A71B4 /* RTEResponse.h */,
+				16C6B03C1AA59148005A71B4 /* RTEResponse.m */,
+				16C6B03D1AA59148005A71B4 /* RTExchangeObject.h */,
+				16C6B03E1AA59148005A71B4 /* RTExchangeObject.m */,
+				16C6B03F1AA59148005A71B4 /* RTObjectExchangeService.h */,
+				16C6B0401AA59148005A71B4 /* RTObjectExchangeService.m */,
+				16C6B01C1AA590B7005A71B4 /* rte.h */,
+				16C6B01E1AA590B7005A71B4 /* rte.m */,
+			);
+			path = rte;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16C6B0181AA590B7005A71B4 /* rte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16C6B02D1AA590B7005A71B4 /* Build configuration list for PBXNativeTarget "rte" */;
+			buildPhases = (
+				16C6B0151AA590B7005A71B4 /* Sources */,
+				16C6B0161AA590B7005A71B4 /* Frameworks */,
+				16C6B0171AA590B7005A71B4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rte;
+			productName = rte;
+			productReference = 16C6B0191AA590B7005A71B4 /* librte.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16C6B0111AA590B7005A71B4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = wybosys;
+				TargetAttributes = {
+					16C6B0181AA590B7005A71B4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 16C6B0141AA590B7005A71B4 /* Build configuration list for PBXProject "rte" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 16C6B0101AA590B7005A71B4;
+			productRefGroup = 16C6B01A1AA590B7005A71B4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16C6B0181AA590B7005A71B4 /* rte */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16C6B0151AA590B7005A71B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16C6B01F1AA590B7005A71B4 /* rte.m in Sources */,
+				16C6B0531AA591F5005A71B4 /* RTEAuthRequest.m in Sources */,
+				16C6B0421AA59148005A71B4 /* RTEHeartBeatReq.m in Sources */,
+				16C6B0571AA591F5005A71B4 /* RTESysReport.m in Sources */,
+				16C6B0441AA59148005A71B4 /* RTEResponse.m in Sources */,
+				16C6B0451AA59148005A71B4 /* RTExchangeObject.m in Sources */,
+				16C6B0461AA59148005A71B4 /* RTObjectExchangeService.m in Sources */,
+				16C6B0431AA59148005A71B4 /* RTEHeartBeatResp.m in Sources */,
+				16C6B0411AA59148005A71B4 /* RTEContentMessageList.m in Sources */,
+				16C6B0551AA591F5005A71B4 /* RTESysCMD.m in Sources */,
+				16C6B0541AA591F5005A71B4 /* RTEMessageDeliveryReport.m in Sources */,
+				16C6B0561AA591F5005A71B4 /* RTESysCMDDisconnect.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16C6B02B1AA590B7005A71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16C6B02C1AA590B7005A71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16C6B02E1AA590B7005A71B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		16C6B02F1AA590B7005A71B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		16C6B0331AA590D4005A71B4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "DISTRIBUTION=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		16C6B0341AA590D4005A71B4 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16C6B0141AA590B7005A71B4 /* Build configuration list for PBXProject "rte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6B02B1AA590B7005A71B4 /* Debug */,
+				16C6B02C1AA590B7005A71B4 /* Release */,
+				16C6B0331AA590D4005A71B4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16C6B02D1AA590B7005A71B4 /* Build configuration list for PBXNativeTarget "rte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16C6B02E1AA590B7005A71B4 /* Debug */,
+				16C6B02F1AA590B7005A71B4 /* Release */,
+				16C6B0341AA590D4005A71B4 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16C6B0111AA590B7005A71B4 /* Project object */;
+}

@@ -1,0 +1,4 @@
+
+@interface VCPracticePageTrans : UIViewControllerExt
+
+@end

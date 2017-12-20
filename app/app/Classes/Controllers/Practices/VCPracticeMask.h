@@ -1,0 +1,4 @@
+
+@interface VCPracticeMask : UIViewControllerExt
+
+@end

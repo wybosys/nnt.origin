@@ -1,0 +1,1 @@
+/Users/wybo/develop/appslim/imgslim/imgslim.py

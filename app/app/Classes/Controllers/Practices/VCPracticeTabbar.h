@@ -1,0 +1,4 @@
+
+@interface VCPracticeTabbar : UITabBarControllerExt
+
+@end

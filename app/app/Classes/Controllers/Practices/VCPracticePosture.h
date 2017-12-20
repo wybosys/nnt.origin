@@ -1,0 +1,4 @@
+
+@interface VCPracticePosture : UIViewControllerExt
+
+@end

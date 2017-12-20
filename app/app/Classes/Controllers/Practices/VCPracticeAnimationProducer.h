@@ -1,0 +1,4 @@
+
+@interface VCPracticeAnimationProducer : UIViewControllerExt
+
+@end
