@@ -1,10 +1,11 @@
 
-# import "app.h"
-# import "VCPractice3RD.h"
-# import "VCPracticeWidgets.h"
-# import "VCPracticeCodeReader.h"
-# import "VCPracticeFacebookPop.h"
-# import "PracticeSnsPlatform.h"
+#import "app.h"
+#import "VCPractice3RD.h"
+#import "VCPracticeWidgets.h"
+#import "VCPracticeCodeReader.h"
+#import "VCPracticeFacebookPop.h"
+#import "PracticeSnsPlatform.h"
+#import <GPUImage/GPUImage.h>
 
 @interface VPractice3RD : UIScrollViewExt
 
@@ -15,7 +16,8 @@
 *btnWeixin, *btnShareWeixin,
 *btnCodeReader,
 *btnCodeMaker,
-*btnPop;
+*btnPop,
+*btnGpuImage;
 
 @end
 
@@ -91,6 +93,12 @@
         _btnPop.text = @"Facebook Pop";
         return _btnPop;
     })];
+    
+    [self addSubview:BLOCK_RETURN({
+        _btnGpuImage = [VPracticeButton new];
+        _btnGpuImage.text = @"GPUImage Movie";
+        return _btnGpuImage;
+    })];
 }
 
 - (void)onLayout:(CGRect)rect {
@@ -118,6 +126,8 @@
     [box addPixel:30 toView:_btnCodeReader];
     [box addPixel:30 toView:_btnCodeMaker];
     [box addPixel:30 toView:_btnPop];
+    [box addPixel:30 toView:_btnGpuImage];
+    
     [box apply];
 }
 
@@ -143,6 +153,7 @@
     [view.btnCodeReader.signals connect:kSignalClicked withSelector:@selector(codeReader) ofTarget:self];
     [view.btnCodeMaker.signals connect:kSignalClicked withSelector:@selector(codeMaker) ofTarget:self];
     [view.btnPop.signals connect:kSignalClicked withSelector:@selector(facebookPop) ofTarget:self];
+    [view.btnGpuImage.signals connect:kSignalClicked withSelector:@selector(gpuImagePlay) ofTarget:self];
 }
 
 - (SnsContent*)shareContent {
@@ -204,6 +215,45 @@
 - (void)facebookPop {
     VCPracticeFacebookPop* ctlr = [VCPracticeFacebookPop temporary];
     [self.navigationController pushViewController:ctlr];
+}
+
+- (void)gpuImagePlay {
+    GPUImageView *gp = [[GPUImageView alloc] initWithFrame:self.view.bounds];
+    gp.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:gp];
+
+    NSURL *fmov = [NSBundle URLForFileNamed:@"white.mp4"];
+    //AVPlayerItem *itmov = [[AVPlayerItem alloc] initWithURL:fmov];
+    
+    GPUImageChromaKeyBlendFilter *filter = [[GPUImageChromaKeyBlendFilter alloc] init];
+    [filter setColorToReplaceRed:0 green:0 blue:0];
+    filter.smoothing = 0.1;
+    filter.thresholdSensitivity = 0.01;
+    
+    GPUImageMovie *mov = [[GPUImageMovie alloc] initWithURL:fmov];
+    mov.playAtActualSpeed = YES;
+    mov.shouldRepeat = YES;
+    //mov.runBenchmark = YES;
+    [mov addTarget:filter];
+    
+    //[mov addTarget:gp];
+    [mov startProcessing];
+    
+    //AVPlayer *player = [[AVPlayer alloc] init];
+    //player.rate = 1;
+    //[player replaceCurrentItemWithPlayerItem:itmov];
+    
+    UIImage *timg = [UIImage imageNamed:@"transparent.png"];
+    GPUImagePicture *vbkg = [[GPUImagePicture alloc] initWithImage:timg smoothlyScaleOutput:YES];
+    [vbkg addTarget:filter];
+    [vbkg processImage];
+    
+    [filter addTarget:gp];
+    
+    //DISPATCH_DELAY_BEGIN(0.1)
+    //[player seekToTime:kCMTimeZero];
+    //[player play];
+    //DISPATCH_DELAY_END
 }
 
 @end

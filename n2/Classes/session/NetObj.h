@@ -5,6 +5,7 @@
 # import "SSObject.h"
 # import "ASIHTTPRequest.h"
 # import "ASIFormDataRequest.h"
+# import "NSTypes+Extension.h"
 
 @interface ASIFormDataRequest (addition)
 

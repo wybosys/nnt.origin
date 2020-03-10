@@ -9,7 +9,8 @@
 # include <sys/sysctl.h>
 
 # ifdef IOS_SIMULATOR
-#   include <sys/proc_info.h>
+//#   include <sys/proc_info.h>
+#define PROC_PIDPATHINFO_MAXSIZE 2048
 # endif
 
 @interface UITouchPointIdentifier : UIViewExt @end

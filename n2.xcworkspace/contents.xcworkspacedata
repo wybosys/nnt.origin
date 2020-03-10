@@ -5,9 +5,6 @@
       location = "group:app/app.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:irr/irr.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:rte/rte.xcodeproj">
    </FileRef>
    <FileRef

@@ -27,7 +27,6 @@
 # import "VCPracticeEffects.h"
 # import "VCPracticeMemory.h"
 # import "VCPracticeAPPS.h"
-# import "VCPractice3DX.h"
 
 @interface VAppIndex : UIViewExt
 
@@ -517,8 +516,7 @@
 }
 
 - (void)act3DX {
-    VCPractice3DX* ctlr = [VCPractice3DX temporary];
-    [self.navigationController pushViewController:ctlr];
+    // removed
 }
 
 @end

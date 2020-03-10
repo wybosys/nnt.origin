@@ -191,7 +191,6 @@
 		167FE0041C4A09F100D53F60 /* AVCamRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 167FDFFD1C4A09F100D53F60 /* AVCamRecorderManager.m */; };
 		167FE0051C4A09F100D53F60 /* AVCamSnapshotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 167FDFFF1C4A09F100D53F60 /* AVCamSnapshotManager.m */; };
 		167FE0061C4A09F100D53F60 /* AVCamUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 167FE0011C4A09F100D53F60 /* AVCamUtilities.m */; };
-		1680FD4B1AA6E8AA0081A35E /* n2.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6AB441AA55B04005A71B4 /* n2.m */; };
 		16C6AB431AA55B04005A71B4 /* n2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6AB421AA55B04005A71B4 /* n2.h */; };
 		16C6AB451AA55B04005A71B4 /* n2.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6AB441AA55B04005A71B4 /* n2.m */; };
 		16C6AC781AA55CAC005A71B4 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 16C6AC011AA55CAC005A71B4 /* Common.m */; };
@@ -325,13 +324,7 @@
 		16C6AED91AA58DB0005A71B4 /* ASICacheDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6ACC41AA55DCA005A71B4 /* ASICacheDelegate.h */; };
 		16C6AEDA1AA58DB9005A71B4 /* SMPageControl.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6ACB41AA55DB0005A71B4 /* SMPageControl.h */; };
 		16C6AEDB1AA58DC7005A71B4 /* ASIFormDataRequest.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6ACCB1AA55DCA005A71B4 /* ASIFormDataRequest.h */; };
-		16C6AFAC1AA58F3D005A71B4 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AE5C1AA56278005A71B4 /* CoreFoundation.framework */; };
-		16C6AFAD1AA58F3D005A71B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AE5A1AA56271005A71B4 /* Foundation.framework */; };
-		16C6AFAE1AA58F3D005A71B4 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AE611AA56291005A71B4 /* CoreAudio.framework */; };
-		16C6AFB81AA58F3D005A71B4 /* libusc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD661AA55E08005A71B4 /* libusc.a */; };
-		16C6B0041AA58F3D005A71B4 /* n2.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 16C6AB421AA55B04005A71B4 /* n2.h */; };
 		16C6B00E1AA59032005A71B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6B00D1AA59032005A71B4 /* UIKit.framework */; };
-		16C6B00F1AA59039005A71B4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6B00D1AA59032005A71B4 /* UIKit.framework */; };
 		16E4686C1DE5753D00A39AE6 /* FLAnimatedImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E4686B1DE5753D00A39AE6 /* FLAnimatedImageView+WebCache.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		16E468711DE577A200A39AE6 /* FLAnimatedImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E4686E1DE577A200A39AE6 /* FLAnimatedImage.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		16E468721DE577A200A39AE6 /* FLAnimatedImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E468701DE577A200A39AE6 /* FLAnimatedImageView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -400,7 +393,6 @@
 		202D75A31D21643D0066690A /* Architect.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D75A21D21643D0066690A /* Architect.m */; };
 		202D75A61D2164460066690A /* AppSpoor.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D75A51D2164460066690A /* AppSpoor.m */; };
 		202D75AA1D2164710066690A /* AppDelegate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D75A91D2164710066690A /* AppDelegate+Extension.m */; };
-		202D75AF1D2168CF0066690A /* UITypes+Minimalism.m in Sources */ = {isa = PBXBuildFile; fileRef = 202D75AC1D2168B80066690A /* UITypes+Minimalism.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -598,16 +590,6 @@
 				16C6AED51AA58D23005A71B4 /* ASIHTTPRequest.h in CopyFiles */,
 				16C6AE741AA56866005A71B4 /* Common.h in CopyFiles */,
 				16C6AB431AA55B04005A71B4 /* n2.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		16C6AFB91AA58F3D005A71B4 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = include;
-			dstSubfolderSpec = 16;
-			files = (
-				16C6B0041AA58F3D005A71B4 /* n2.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,7 +863,6 @@
 		16C6AE611AA56291005A71B4 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		16C6AE651AA56409005A71B4 /* n2.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = n2.pch; sourceTree = "<group>"; };
 		16C6AE661AA56560005A71B4 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
-		16C6B0091AA58F3D005A71B4 /* libn2-mini.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libn2-mini.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16C6B00D1AA59032005A71B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		16E4686A1DE5753D00A39AE6 /* FLAnimatedImageView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "FLAnimatedImageView+WebCache.h"; path = "FLAnimatedImage/FLAnimatedImageView+WebCache.h"; sourceTree = "<group>"; };
 		16E4686B1DE5753D00A39AE6 /* FLAnimatedImageView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "FLAnimatedImageView+WebCache.m"; path = "FLAnimatedImage/FLAnimatedImageView+WebCache.m"; sourceTree = "<group>"; };
@@ -1044,18 +1025,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C6AFAB1AA58F3D005A71B4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				16C6B00F1AA59039005A71B4 /* UIKit.framework in Frameworks */,
-				16C6AFAC1AA58F3D005A71B4 /* CoreFoundation.framework in Frameworks */,
-				16C6AFAD1AA58F3D005A71B4 /* Foundation.framework in Frameworks */,
-				16C6AFAE1AA58F3D005A71B4 /* CoreAudio.framework in Frameworks */,
-				16C6AFB81AA58F3D005A71B4 /* libusc.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -1092,7 +1061,6 @@
 			isa = PBXGroup;
 			children = (
 				16C6AB3F1AA55B04005A71B4 /* libn2.a */,
-				16C6B0091AA58F3D005A71B4 /* libn2-mini.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1849,23 +1817,6 @@
 			productReference = 16C6AB3F1AA55B04005A71B4 /* libn2.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		16C6AEF01AA58F3D005A71B4 /* n2-mini */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 16C6B0051AA58F3D005A71B4 /* Build configuration list for PBXNativeTarget "n2-mini" */;
-			buildPhases = (
-				16C6AEF11AA58F3D005A71B4 /* Sources */,
-				16C6AFAB1AA58F3D005A71B4 /* Frameworks */,
-				16C6AFB91AA58F3D005A71B4 /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "n2-mini";
-			productName = n2;
-			productReference = 16C6B0091AA58F3D005A71B4 /* libn2-mini.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1885,6 +1836,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 16C6AB361AA55B04005A71B4;
@@ -1893,7 +1845,6 @@
 			projectRoot = "";
 			targets = (
 				16C6AB3E1AA55B04005A71B4 /* n2 */,
-				16C6AEF01AA58F3D005A71B4 /* n2-mini */,
 			);
 		};
 /* End PBXProject section */
@@ -2091,15 +2042,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16C6AEF11AA58F3D005A71B4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				202D75AF1D2168CF0066690A /* UITypes+Minimalism.m in Sources */,
-				1680FD4B1AA6E8AA0081A35E /* n2.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
@@ -2144,7 +2086,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2185,7 +2127,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -2273,7 +2215,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -2303,78 +2245,6 @@
 			};
 			name = Distribution;
 		};
-		16C6B0061AA58F3D005A71B4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Irrlicht",
-					"$(PROJECT_DIR)/Thirds/SNS/QQ",
-					"$(PROJECT_DIR)/Thirds/SNS/Weibo",
-					"$(PROJECT_DIR)/Thirds/SNS/Weixin",
-					"$(PROJECT_DIR)/Thirds/Voice",
-					"$(PROJECT_DIR)/Thirds",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Voice/云知声",
-					"$(PROJECT_DIR)/Libs",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "n2-mini";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Debug;
-		};
-		16C6B0071AA58F3D005A71B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Irrlicht",
-					"$(PROJECT_DIR)/Thirds/SNS/QQ",
-					"$(PROJECT_DIR)/Thirds/SNS/Weibo",
-					"$(PROJECT_DIR)/Thirds/SNS/Weixin",
-					"$(PROJECT_DIR)/Thirds/Voice",
-					"$(PROJECT_DIR)/Thirds",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Voice/云知声",
-					"$(PROJECT_DIR)/Libs",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "n2-mini";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Release;
-		};
-		16C6B0081AA58F3D005A71B4 /* Distribution */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Irrlicht",
-					"$(PROJECT_DIR)/Thirds/SNS/QQ",
-					"$(PROJECT_DIR)/Thirds/SNS/Weibo",
-					"$(PROJECT_DIR)/Thirds/SNS/Weixin",
-					"$(PROJECT_DIR)/Thirds/Voice",
-					"$(PROJECT_DIR)/Thirds",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/Thirds/Voice/云知声",
-					"$(PROJECT_DIR)/Libs",
-				);
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = "n2-mini";
-				SKIP_INSTALL = YES;
-				USER_HEADER_SEARCH_PATHS = "";
-			};
-			name = Distribution;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -2394,16 +2264,6 @@
 				16C6AB541AA55B04005A71B4 /* Debug */,
 				16C6AB551AA55B04005A71B4 /* Release */,
 				16C6AB5A1AA55B4E005A71B4 /* Distribution */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		16C6B0051AA58F3D005A71B4 /* Build configuration list for PBXNativeTarget "n2-mini" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				16C6B0061AA58F3D005A71B4 /* Debug */,
-				16C6B0071AA58F3D005A71B4 /* Release */,
-				16C6B0081AA58F3D005A71B4 /* Distribution */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
