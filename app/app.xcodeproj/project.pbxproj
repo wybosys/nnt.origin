@@ -115,6 +115,7 @@
 		16DD97D01A5FD0C400D925A5 /* VCPracticeMemory.m in Sources */ = {isa = PBXBuildFile; fileRef = 16DD97CF1A5FD0C400D925A5 /* VCPracticeMemory.m */; };
 		16E0C6331A417307006D845E /* VCPracticePercentage.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E0C6321A417307006D845E /* VCPracticePercentage.m */; };
 		16E4497B1930499500D13C20 /* VCPracticeToolbox.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E4497A1930499500D13C20 /* VCPracticeToolbox.m */; };
+		16E76A222418026A00B8EF9B /* transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 16E76A212418026A00B8EF9B /* transparent.png */; };
 		16E8D5851A26FB3400EA6FEF /* VCPracticeEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E8D5841A26FB3400EA6FEF /* VCPracticeEffects.m */; };
 		16EB54381980B94100A2646E /* VCPracticeFeatures.m in Sources */ = {isa = PBXBuildFile; fileRef = 16EB54371980B94100A2646E /* VCPracticeFeatures.m */; };
 		16ED75B9194589C500F3B5EB /* VCPracticeWidgets.m in Sources */ = {isa = PBXBuildFile; fileRef = 16ED75B8194589C500F3B5EB /* VCPracticeWidgets.m */; };
@@ -339,6 +340,7 @@
 		16E4497A1930499500D13C20 /* VCPracticeToolbox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPracticeToolbox.m; sourceTree = "<group>"; };
 		16E76A1F2418022200B8EF9B /* white.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = white.mp4; sourceTree = "<group>"; };
 		16E76A202418022200B8EF9B /* white2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = white2.mp4; sourceTree = "<group>"; };
+		16E76A212418026A00B8EF9B /* transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparent.png; sourceTree = "<group>"; };
 		16E8D5831A26FB3400EA6FEF /* VCPracticeEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPracticeEffects.h; sourceTree = "<group>"; };
 		16E8D5841A26FB3400EA6FEF /* VCPracticeEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPracticeEffects.m; sourceTree = "<group>"; };
 		16EB54361980B94100A2646E /* VCPracticeFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPracticeFeatures.h; sourceTree = "<group>"; };
@@ -416,6 +418,7 @@
 				168A8CF21A7245E900300C47 /* apprlt.bundle */,
 				163F735F1A5E89CF001FB926 /* uploaddata.zip */,
 				16FBDDF41A401D6C00B2775C /* logo.png */,
+				16E76A212418026A00B8EF9B /* transparent.png */,
 				16BA6BEA1A3B1043005877FB /* com_btn_red_highlight.png */,
 				16E76A1F2418022200B8EF9B /* white.mp4 */,
 				16E76A202418022200B8EF9B /* white2.mp4 */,
@@ -782,6 +785,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				16E76A222418026A00B8EF9B /* transparent.png in Resources */,
 				168A8CF31A7245E900300C47 /* apprlt.bundle in Resources */,
 				16BA6BEC1A3B1043005877FB /* com_btn_red_highlight.png in Resources */,
 				16BA6BE91A3B0FAC005877FB /* com_btn_blue_highlight.png in Resources */,
