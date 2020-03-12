@@ -226,9 +226,9 @@
     //AVPlayerItem *itmov = [[AVPlayerItem alloc] initWithURL:fmov];
     
     GPUImageChromaKeyBlendFilter *filter = [[GPUImageChromaKeyBlendFilter alloc] init];
-    [filter setColorToReplaceRed:0 green:0 blue:0];
-    filter.smoothing = 0.1;
-    filter.thresholdSensitivity = 0.01;
+    [filter setColorToReplaceRed:1 green:0 blue:1];
+    filter.smoothing = 0.3;
+    filter.thresholdSensitivity = 0.15;
     
     GPUImageMovie *mov = [[GPUImageMovie alloc] initWithURL:fmov];
     mov.playAtActualSpeed = YES;
