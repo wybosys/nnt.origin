@@ -241,8 +241,6 @@
 		16C6AD5F1AA55E02005A71B4 /* TencentOpenAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD581AA55E02005A71B4 /* TencentOpenAPI.framework */; };
 		16C6AD601AA55E02005A71B4 /* Weibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD5B1AA55E02005A71B4 /* Weibo.framework */; };
 		16C6AD611AA55E02005A71B4 /* WeChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD5E1AA55E02005A71B4 /* WeChat.framework */; };
-		16C6AD691AA55E08005A71B4 /* hdvoice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD631AA55E08005A71B4 /* hdvoice.framework */; };
-		16C6AD6A1AA55E08005A71B4 /* libusc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD661AA55E08005A71B4 /* libusc.a */; };
 		16C6AD6F1AA55E26005A71B4 /* BDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD6B1AA55E26005A71B4 /* BDB.framework */; };
 		16C6AD701AA55E26005A71B4 /* GPUImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD6C1AA55E26005A71B4 /* GPUImage.framework */; };
 		16C6AD711AA55E26005A71B4 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16C6AD6D1AA55E26005A71B4 /* pop.framework */; };
@@ -1020,8 +1018,6 @@
 				16C6AD601AA55E02005A71B4 /* Weibo.framework in Frameworks */,
 				16C6AD701AA55E26005A71B4 /* GPUImage.framework in Frameworks */,
 				16C6AD721AA55E26005A71B4 /* ZBar.framework in Frameworks */,
-				16C6AD691AA55E08005A71B4 /* hdvoice.framework in Frameworks */,
-				16C6AD6A1AA55E08005A71B4 /* libusc.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1823,7 +1819,7 @@
 		16C6AB371AA55B04005A71B4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = wybosys;
 				TargetAttributes = {
 					16C6AB3E1AA55B04005A71B4 = {
@@ -2068,6 +2064,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2098,7 +2095,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -2128,6 +2125,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2151,7 +2149,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -2229,6 +2227,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -2253,7 +2252,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

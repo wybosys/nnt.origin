@@ -759,7 +759,7 @@
 		166DF1EC191A3B0F00B6D353 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1240;
 				ORGANIZATIONNAME = hoodinn;
 			};
 			buildConfigurationList = 166DF1EF191A3B0F00B6D353 /* Build configuration list for PBXProject "app" */;
@@ -938,6 +938,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -967,7 +968,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
@@ -998,6 +999,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1020,7 +1022,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1046,7 +1048,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "app/app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wybosys.n2.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1072,7 +1074,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "app/app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wybosys.n2.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1104,6 +1106,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1127,7 +1130,7 @@
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1152,7 +1155,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = "app/app-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.wybosys.n2.sample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
